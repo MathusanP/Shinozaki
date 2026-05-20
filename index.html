@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +10,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@400;700&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
@@ -37,11 +40,7 @@
 
   <header class="navbar">
 
-    <button
-      class="navbar__menu-btn"
-      id="sidebarBtn"
-      aria-label="Open navigation menu"
-    >
+    <button class="navbar__menu-btn" id="sidebarBtn" aria-label="Open navigation menu">
       ☰
     </button>
 
@@ -50,6 +49,112 @@
     </h1>
 
   </header>
+  <div class="container">
+  <!-- Top 2 Images -->
+  <section class="panel-section">
+    <div class="grid-1">
 
+      <div class="panel panel--left" id="p1">
+        <div class="panel__bg">
+          <img src="assets/Tanjiro.webp" alt="" loading="lazy">
+        </div>
+        <span class="panel__label">01 / Demon Slayer</span>
+        <div class="panel__desc">
+          <p class="panel__desc-title"> Demon slayer (or some other title ask phanny)</p>
+          <p class="panel__desc-body">
+            ask phanny for description
+          </p>
+          <button class="panel__desc-view" id="panel_one">View</button>
+        </div>
+      </div>
+
+      <div class="panel panel--right" id="p2">
+        <div class="panel__bg">
+          <img src="assets/Miyabi.webp" alt="" loading="lazy">
+        </div>
+        <span class="panel__label">02 / Miyabi</span>
+        <div class="panel__desc">
+          <p class="panel__desc-title"> Miyabi </p>
+          <p class="panel__desc-body">
+            Ask phans for desc
+          </p>
+          <button class="panel__desc-view" id="panel_two">View</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Middle row images -->
+  <section class="panel-section">
+    <div class="grid-2">
+      <div class="panel panel--left" id="p3">
+        <div class="panel__bg">
+          <img src="assets/Chiori.webp" alt="" loading="lazy">
+        </div>
+        <span class="panel__label"> 03 / Chiori </span>
+        <div class="panel__desc">
+          <p class="panel__desc-title"> Title Here</p>
+          <p class="panel__desc-body"> Description here :)</p>
+          <button class="panel__desc-view" id="panel_three">View</button>
+        </div>
+      </div>
+
+      <div class="panel panel--right" id="p4">
+        <div class="panel__bg">
+          <img src="assets/Hatsune Miku.webp">
+        </div>
+        <span class="panel__label"> 04 / Hatsune Miku </span>
+        <div class="panel__desc">
+          <p class="panel__desc-title"> Hatsune Miku</p>
+          <p class="panel__desc-body"> Desc here </p>
+          <button class="panel__desc-view" id="panel_four">View</button>
+        </div>
+      </div>
+    </div>
+  </section>
+   <section class="panel-section">
+    <div class="grid-bottom">
+ 
+      <div class="card" id="c1">
+        <div class="card__bg">
+          <img src="assets/liesareaformoflove.webp" alt="" loading="lazy">
+        </div>
+        <span class="card__label">05 / Lies</span>
+        <div class="card__desc">
+          <p class="card__desc-title">Lies</p>
+          <p class="card__desc-body">Short description</p>
+          <button class="card__desc-view" id="panel_five">View</button>
+        </div>
+      </div>
+ 
+       <div class="card" id="c2">
+        <div class="card__bg">
+          <img src="assets/cynthia.webp" alt="" loading="lazy">
+        </div>
+        <span class="card__label">06 / Cynthia</span>
+        <div class="card__desc">
+          <p class="card__desc-title">Cynthia</p>
+          <p class="card__desc-body">desc here </p>
+          <button class="card__desc-view" id="panel_six">View</button>
+        </div>
+      </div>
+ 
+     <div class="card" id="c3">
+        <div class="card__bg">
+          <img src="assets/idkwhothisis.webp" alt="" loading="lazy">
+        </div>
+        <span class="card__label">07 / OC</span>
+        <div class="card__desc">
+          <p class="card__desc-title">OC</p>
+          <p class="card__desc-body">add desc here</p>
+          <button class="card__desc-view" id="panel_seven">View</button>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+  </div>
 </body>
+
 </html>
